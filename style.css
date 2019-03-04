@@ -3,18 +3,29 @@
     color: #df42f4;
   }
 
+  h2 {
+    font-size: 30px;
+  {
+
   /* BIO STYLES - All styles related to the biographies are included here html{background:red;}*/
   div .bio-box {
-    border: 1px #0f0;
+    border: 1px solid #0f0;
+    font-size: 150%;
   }
 
   .bio-box {
-    border: 1px #000;
+    border: 10px solid #000;
+    width: 50%;
+    margin: 10%;
+    font-size: 150%;
   }
 
   .bio-copy a {
     color: #0f0;
-  }
+  } 
+
+  .bio-wrapper {
+  {
 
   /* SOCIAL STYLES - Intended to change the color of the social network links html{background:red;}*/
   .social-link {
