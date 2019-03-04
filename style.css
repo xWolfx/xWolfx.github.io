@@ -1,22 +1,23 @@
   /* GLOBAL STYLES - All the less specific styles are here html{background:red;}*/
   a {
-    color: red;
+    color: #df42f4;
   }
 
   /* BIO STYLES - All styles related to the biographies are included here html{background:red;}*/
   div .bio-box {
-    border: 1px solid green;
+    border: 1px #0f0;
   }
 
   .bio-box {
-    border: 1px solid black;
+    border: 1px #000;
   }
 
   .bio-copy a {
-    color: green
+    color: #0f0;
   }
 
   /* SOCIAL STYLES - Intended to change the color of the social network links html{background:red;}*/
   .social-link {
-    color: blue;
+    background: rbga(150, 150, 150, 0.2);
+    color: #00f;
   }
