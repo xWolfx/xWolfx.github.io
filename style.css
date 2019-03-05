@@ -35,16 +35,21 @@
   }
 
   .bio-box {
-    border: 10px solid #000;
-    width: 25%;
-    font-size: 1em;
+    border: 1px solid #000;
+    font-size: 1rem;
+    margin: 40px 1% 0;
     padding: 2%;
+    width:23%;
     float: left;
-    border-sizing: border-box;
+    box-sizing: border-box;
   }
 
   .bio-box h3 {
     font-size: 1.5em;
+  }
+
+  .bio-box > a {
+    color: #c68bf9;
   }
 
   .bio-copy {
