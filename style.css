@@ -21,8 +21,8 @@
   /* HERO STYLES */
   .full-hero {
     background-color: #c7dbfc;
-    height: 50vw;
-    width: 50vw;
+    height: 10vw;
+    width: 10vw;
   }
 
   .full-hero li {
@@ -36,8 +36,11 @@
 
   .bio-box {
     border: 10px solid #000;
-    width: 50%;
+    width: 25%;
     font-size: 1em;
+    padding: 2%;
+    float: left;
+    border-sizing: border-box;
   }
 
   .bio-box h3 {
@@ -65,6 +68,15 @@
   }
 
   .show {
-    display:block;
+    display: block;
+  }
+ 
+  /* TEST BOXES - Just that, text boxes */
+  .test-box {
+    width: 200px;
   }
 
+  .test-box-sizing {
+    width: auto;
+    top-margin: 100px;
+  }
