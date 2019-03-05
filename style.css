@@ -78,6 +78,15 @@
     width: 36px;
   }
 
+  .social-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .social-list > li {
+    display: inline:block;
+  }
+
   .show {
     display: block;
   }
