@@ -29,10 +29,6 @@
     display: inline;
   }
 
-  .clear {
-    clear: left;
-  }
-
   /* BIO STYLES - All styles related to the biographies are included here html{background:red;}*/
   div .bio-box {
     border: 1px solid #0f0;
@@ -60,6 +56,8 @@
   } 
 
   .bio-wrapper {
+    font-size: 24px;
+    overflow: hidden;
   }
 
   /* SOCIAL STYLES - Intended to change the color of the social network links html{background:red;}*/
