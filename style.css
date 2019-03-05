@@ -21,8 +21,8 @@
   /* HERO STYLES */
   .full-hero {
     background-color: #c7dbfc;
-    height: 10vw;
-    width: 10vw;
+    height: 30vw;
+    width: 30vw;
   }
 
   .full-hero li {
@@ -57,6 +57,7 @@
 
   .bio-wrapper {
     font-size: 24px;
+    overflow: hidden;
   }
 
   .bio-wrapper:after {
