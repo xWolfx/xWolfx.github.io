@@ -25,6 +25,10 @@
     width: 50vw;
   }
 
+  .full-hero li {
+    display: inline;
+  }
+
   /* BIO STYLES - All styles related to the biographies are included here html{background:red;}*/
   div .bio-box {
     border: 1px solid #0f0;
@@ -55,11 +59,12 @@
   .social-link {
     background: rbga(150, 150, 150, 0.5);
     color: #00f;
-    display: none;
+    display: inline-block;
     height: 36px;
     width: 36px;
   }
 
   .show {
     display:block;
+  }
 
