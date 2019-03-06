@@ -10,11 +10,59 @@
   a {
     color: #f00;
   }
+ 
+  /* HEADER STYLES */
+  .header {
+    background: #000;
+  }
+  .header-nav {
+    float:right;
+    padding: 5.5vh 60px 0 0;
+  }
+  .header-nav > li {
+    display: inline-block;
+    margin-left: 1em;
+  }
+  .header-nav a {
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .header-nav a:hover,
+  .header-nav a:active {
+    color: #ed6e2f;
+  }
+  .header-logo:hover,
+  .header-logo:active {
+    opacity: 0.5;
+  }
+  .header-nav > li:first-child a {
+    color: #ed6e2f;
+  }
+  .header-nav > li:first-child a:hover,
+  .header-nav > li:first-child a:active {
+    color: #000;
+  }
+  .header-nav > li:last-child a {
+    color: #00f;
+  }
+  .header-nav > li:last-child a:hover,
+  .header-nav > li:last-child a:active {
+    color: #ed6e2f;
+    opacity: 0.5;
+  }
 
   /* HERO STYLES */
   .full-hero {
-    background-color: #c7dbfc;
+    background: #c7dbfc;
     height: 50vh;
+  }
+  .full-hero:hover,
+  .full-hero:active {
+    color: #00f;
+    opacity: 0.5;
   }
 
   /* SOCIAL STYLES */
@@ -34,6 +82,11 @@
     text-decoration: none;
     vertical-align: middle;
     width: 2.5em;
+  }
+  .social-link:hover,
+  .social-link:active {
+    color: #00f;
+    opacity: 0.4;
   }
   .social-list {
     list-style: none;

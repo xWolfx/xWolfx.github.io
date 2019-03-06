@@ -10,11 +10,77 @@
   a {
     color: #f00;
   }
+  h2 - p {
+    font-size: 0.8em;
+    font-style: italic;
+    margin: 1em auto 0;
+    max-width: 70%;
+    text-align: center;
+  }
+ 
+  /* HEADER STYLES */
+  .header {
+    background-color: #aaa;
+    height: 300px;
+    position: relative;
+    width: 100%;
+  }
+  .header-nav {
+    float:right;
+    padding: 5.5vh 60px 0 0;
+  }
+  .header-nav > li {
+    display: inline-block;
+    margin-left: 1em;
+  }
+  .header-nav > li - li {
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    padding-left: 1em;
+  }
+  .header-nav a {
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .header-nav a:hover,
+  .header-nav a:active {
+    color: #ed6e2f;
+  }
+  .header-logo:hover,
+  .header-logo:active {
+    opacity: 0.5;
+  }
+  .header-nav > li:first-child a {
+    color: #ed6e2f;
+  }
+  .header-nav > li:first-child a:hover,
+  .header-nav > li:first-child a:active {
+    color: #000;
+  }
+  .header-nav > li:last-child a {
+    color: #00f;
+  }
+  .header-nav > li:last-child a:hover,
+  .header-nav > li:last-child a:active {
+    color: #ed6e2f;
+    opacity: 0.5;
+  }
+  .header-logo {
+    bottom: 50px;
+    position: absolute;
+  }
 
   /* HERO STYLES */
   .full-hero {
-    background-color: #c7dbfc;
+    background: #c7dbfc;
     height: 50vh;
+  }
+  .full-hero:hover,
+  .full-hero:active {
+    color: #00f;
+    opacity: 0.5;
   }
 
   /* SOCIAL STYLES */
@@ -34,6 +100,11 @@
     text-decoration: none;
     vertical-align: middle;
     width: 2.5em;
+  }
+  .social-link:hover,
+  .social-link:active {
+    color: #00f;
+    opacity: 0.4;
   }
   .social-list {
     list-style: none;
