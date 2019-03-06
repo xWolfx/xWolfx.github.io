@@ -20,10 +20,21 @@
  
   /* HEADER STYLES */
   .header {
-    background-color: #aaa;
-    height: 300px;
+    background-color: #000;
+    color: #fff;
+  }
+  .header-logo {
+    background-color: #000;
+    box-sizing: border-box;
+    display: block;
+    height: 10vh;
+    padding-top: 10px;
     position: relative;
-    width: 100%;
+    text-align: center;
+    width: 10vh;
+  }
+  .header-logo img {
+    width: 4.3vh;
   }
   .header-nav {
     float:right;
@@ -34,11 +45,11 @@
     margin-left: 1em;
   }
   .header-nav > li - li {
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
     padding-left: 1em;
   }
   .header-nav a {
-    color: #000;
+    color: #fff;
     font-size: 0.8rem;
     font-weight: bold;
     text-decoration: none;
@@ -50,26 +61,14 @@
   }
   .header-logo:hover,
   .header-logo:active {
-    opacity: 0.5;
+    background-color: #ed6e2f;
   }
   .header-nav > li:first-child a {
     color: #ed6e2f;
   }
   .header-nav > li:first-child a:hover,
   .header-nav > li:first-child a:active {
-    color: #000;
-  }
-  .header-nav > li:last-child a {
-    color: #00f;
-  }
-  .header-nav > li:last-child a:hover,
-  .header-nav > li:last-child a:active {
-    color: #ed6e2f;
-    opacity: 0.5;
-  }
-  .header-logo {
-    bottom: 50px;
-    position: absolute;
+    color: #fff;
   }
 
   /* HERO STYLES */
@@ -110,6 +109,7 @@
     list-style: none;
     padding: 0;
     text-align: center;
+    margin: 20% 82% 0 0;
   }
   .social-list > li {
     display: inline-block;
@@ -152,3 +152,4 @@
   .bio-copy a {
     color: green;
   }
+
