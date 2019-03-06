@@ -10,10 +10,20 @@
   a {
     color: #f00;
   }
+  h2 - p {
+    font-size: 0.8em;
+    font-style: italic;
+    margin: 1em auto 0;
+    max-width: 70%;
+    text-align: center;
+  }
  
   /* HEADER STYLES */
   .header {
-    background: #000;
+    background-color: #aaa;
+    height: 300px;
+    position: relative;
+    width: 100%;
   }
   .header-nav {
     float:right;
@@ -22,6 +32,10 @@
   .header-nav > li {
     display: inline-block;
     margin-left: 1em;
+  }
+  .header-nav > li - li {
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    padding-left: 1em;
   }
   .header-nav a {
     color: #000;
@@ -52,6 +66,10 @@
   .header-nav > li:last-child a:active {
     color: #ed6e2f;
     opacity: 0.5;
+  }
+  .header-logo {
+    bottom: 50px;
+    position: absolute;
   }
 
   /* HERO STYLES */

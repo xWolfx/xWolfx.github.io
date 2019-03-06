@@ -64,8 +64,7 @@
   }
   .header-nav > li:last-child a:hover,
   .header-nav > li:last-child a:active {
-    color: #ed6e2f;
-    opacity: 0.5;
+    color: #000;
   }
   .header-logo {
     bottom: 50px;
