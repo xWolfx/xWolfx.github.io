@@ -11,8 +11,14 @@
     font-size: 7vw;
     margin-top: 0;
   }
+  h2 {
+    font-size: 2em;
+  }
   a {
-    color: #f00;
+    color: #6397b5;
+  }
+  p {
+    line-height: 1.5;
   }
   h2 - p {
     font-size: 0.8em;
@@ -120,10 +126,10 @@
     border: 10px solid;
     border-color: transparent transparent yellow transparent;
     bottom: 2vh;
+    position: fixed;
     content: "";
     height: 0;
     left: 50%;
-    position: fixed;
     transform: translate(-50%, 0);
     width: 0;
     z-index: 19;
