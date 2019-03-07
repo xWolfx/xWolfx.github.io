@@ -4,7 +4,15 @@
     padding: 0 30px;
   }
   body {
+    display: flex;
+    flex-direction: column;
     font-family: helvetica, arial, sans;
+    min-height: 100vh;
+  }
+  .content-container {
+    flex-grow: 1;
+    padding-top: 10vh;
+    width: 100%;
   }
 
   h1 {
@@ -118,9 +126,7 @@
     background-color: #c7dbfc;
     background-size: cover;
     box-sizing:  border-box;
-    height: 100vh;
-    padding-top: 10vh;
-    background-repeat: no-repeat;
+    height: 90vh;
   }
   .full-hero:after {
     border: 10px solid;
