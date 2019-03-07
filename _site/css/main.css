@@ -126,7 +126,7 @@
     position: fixed;
     transform: translate(-50%, 0);
     width: 0;
-    z-index: 18;
+    z-index: 19;
   }
   .hero-home {
     background-image: url(/images/shark.jpg);
