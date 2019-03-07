@@ -114,6 +114,17 @@
     padding-top: 10vh;
     background-repeat: no-repeat;
   }
+  .full-hero:after {
+    border: 10px solid;
+    border-color: transparent transparent yellow transparent;
+    bottom: 2vh;
+    content: "";
+    height: 0;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 0;
+  }
   .hero-home {
     background-image: url(/images/shark.jpg);
     background-position: center top;
