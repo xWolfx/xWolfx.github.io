@@ -43,7 +43,7 @@
     color: #fff;
     position: fixed;
     width: 100%;
-    z-index 20;
+    z-index 23;
   }
   .header-logo {
     background-color: #000;
@@ -129,6 +129,7 @@
     box-sizing:  border-box;
     background-attachment: fixed;
     height: 90vh;
+    z-index: 19;
   }
   .full-hero:after {
     border: 10px solid;
@@ -267,16 +268,4 @@
   .bio-copy a {
     color: green;
   }
-  .love {
-    background-image: url(/images/hearts.jpg);
-    background-position: center top;
-    background-size: cover;
-    height: 67vh;
-    width: 100vw;
-    text-align: center;
-    font-family: non-sans;
-    font-weight: bold;
-    font-size: 10vh;
-    color: purple;
-    padding-top: 33vh;
-  }
+
