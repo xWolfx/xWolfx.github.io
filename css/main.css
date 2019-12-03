@@ -127,6 +127,7 @@
     background-color: #c7dbfc;
     background-size: cover;
     box-sizing:  border-box;
+    background-attachment: scroll;
     height: 90vh;
   }
   .full-hero:after {
