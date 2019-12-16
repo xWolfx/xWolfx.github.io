@@ -22,7 +22,8 @@
     </header>
 
     <div class="content-container">
-    {{ content }}
+      <img src="/gallery/icon.svg" alt="Harry Potter Picture 1"/>
+      <img src="/gallery/icon(1).svg" alt="Harry Potter Picture 2"/>
     </div>
     <footer class="footer">
     <a class="footer-logo" href="/">
@@ -30,7 +31,10 @@
     </a>
     <nav>
       <ul class="footer-nav nav-links">
-        {% include nav-links.html %}
+        <li><a href="/">Home</a></li>
+        <li><a href="">Nav 1</a></li>
+        <li><a href="">Nav 2</a></li>
+        <li><a href="">Nav 3</a></li>
       </ul>
     </nav>
     <h3>Learn Enough <span>to Be Dangerous</span></h3>
