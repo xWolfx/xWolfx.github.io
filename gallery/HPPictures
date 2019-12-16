@@ -22,8 +22,8 @@
     </header>
 
     <div class="content-container">
-      <img src="/gallery/icon.svg" alt="Harry Potter Picture 1"/>
-      <img src="/gallery/icon(1).svg" alt="Harry Potter Picture 2"/>
+      <img class="Harry-Potter" src="/gallery/icon.svg" alt="Harry Potter Picture 1"/>
+      <img class="Harry-Potter" src="/gallery/icon(1).svg" alt="Harry Potter Picture 2"/>
     </div>
     <footer class="footer">
     <a class="footer-logo" href="/">
