@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div class="HPPictures>
-Test
+<div class="love>
+
 </div>
 <script>
   alert("Made with ♥ for my Nessa");
